@@ -1,3 +1,5 @@
+# local -> enclosing -> global -> builtin
+
 def b():
     x = 31
 
@@ -7,3 +9,4 @@ def b():
 
 
 b()  # 31
+
